@@ -20,7 +20,7 @@
 # CONTRIBUTING document, first.
 
 FROM php:{{ .Values.PHP.Major }}.{{ .Values.PHP.Minor }}-apache-{{ .Values.Debian }}
-LABEL maintainer="Martin Helmich <typo3@martin-helmich.de>"
+LABEL maintainer="Ben Samuelson <typo3@fiteka.de>"
 
 # Install TYPO3
 RUN apt-get update && \
